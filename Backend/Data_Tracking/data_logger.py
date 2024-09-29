@@ -3,7 +3,7 @@ from datetime import datetime
 
 class DataLogger:
     def __init__(self):
-        self.file = open('emotion_log.csv', mode='w', newline='')
+        self.file = open('/Users/isaacgutterman/CNN-Teach/Backend/Data_Tracking/emotion_log.csv', mode='w', newline='')
         self.writer = csv.writer(self.file)
         self.writer.writerow(['Timestamp', 'Emotion', 'Slide'])
 

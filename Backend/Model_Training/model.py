@@ -4,8 +4,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
-train_dir = '/Users/isaacgutterman/NeuroRAG/Data/train'
-test_dir = '/Users/isaacgutterman/NeuroRAG/Data/test' 
+train_dir = '/Users/isaacgutterman/CNN-Teach/Data/train'
+test_dir = '/Users/isaacgutterman/CNN-Teach/Data/test' 
 
 # Prepare the data generators
 train_datagen = ImageDataGenerator(

@@ -4,7 +4,7 @@ import tensorflow as tf
 
 class EmotionClassifier:
     def __init__(self):
-        self.model = tf.keras.models.load_model("emotion_model_final.keras")
+        self.model = tf.keras.models.load_model("/Users/isaacgutterman/CNN-Teach/Backend/Models/emotion_model_final.keras")
 
     def predict(self, full_image, face_landmarks):
         face_rect = face_landmarks.rect  # Get the bounding box from the landmarks
